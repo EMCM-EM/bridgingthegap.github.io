@@ -12,29 +12,47 @@
 		overflow-x: hidden;
 	}
 		/* Header */
+		@media screen and (max-width: 800px) {
+			.banner{
+				color: white;
+				font-family: Elephant, Arial;
+				font-size: 5em;
+				margin: 0em;
+				text-align: center;
+				font-weight: bold;
+			}
+		}
+		@media screen and (min-width: 801px){
+			.banner{
+				color: white;
+				font-family: Elephant, Arial;
+				font-size: 10em;
+				margin: 0em;
+				text-align: center;
+				font-weight: bold;
+			}
+		}
+			@media screen and (max-width: 1447px){
+				.hidden-xs
+				{
+					display: none;
+				}
+			}
+
 		.header {
 			text-align: center;
 		}
 		#header {
 			background-color:#222831;
 		}
-		span.banner{
-			color: white;
-			font-family: Elephant, Arial;
-			font-size: 10em;
-			margin-top: 1rem;
-			text-align: center;
-			font-weight: bold;
-			/*padding-bottom: 1rem;*/
-			/*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
-		}
+
 		h2.tag {
 			color: white;
 			font-family: Cambria, Arial;
 			font-size: 1.5em;
 			/*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
 		}
-
+/*
 		@media screen and (max-width: 1300px)
 		{
 			.hidden-xs
@@ -48,6 +66,7 @@
 				font-size: 5em;
 			}
 		}
+
 		/* End-Header */
 		/* Navigation */
 		.container{
