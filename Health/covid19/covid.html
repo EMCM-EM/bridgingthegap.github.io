@@ -18,6 +18,11 @@
 		#header {
 			background-color:#222831;
 		}
+		@media screen and (max-device-width:450px) {
+			img{
+         display:none;
+    	}
+		}
 		h1.banner{
 			color: white;
 			font-family: Elephant, Arial;
@@ -108,10 +113,10 @@
 	<div class="container-fluid header">
 		<div class="row">
 			<div class="col-12" id="header">
-				<img src="virus.png" alt="Covid-19 virus" class="img-responsive">
-				<h1 class="banner"> Covid-19 </h1>
+				<div>
+					<img src="virus.png" alt="Covid-19 virus" class="img-responsive"><h1 class="banner"> Covid-19 </h1><img src="virus.png" alt="Covid-19 virus" class="img-responsive">
+				</div>
 				<h2 class="tag"> - the essentials </h2>
-				<img src="virus.png" alt="Covid-19 virus" class="img-responsive">
 			</div>
 			<div class="col-2" id="header">
 				<p><img src="virus.png" alt="Covid-19 virus" class="img-responsive"> </p>
