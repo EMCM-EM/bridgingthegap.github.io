@@ -7,7 +7,7 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 	<style>
 		/* Header */
-		@media screen and (max-width: 700px) {
+		@media screen and (max-width: 800px) {
 			.banner{
 				color: white;
 				font-family: Elephant, Arial;
@@ -16,9 +16,12 @@
 				text-align: center;
 				font-weight: bold;
 			}
-
+			.hidden-xs
+			{
+				display: none;
+			}
 		}
-		@media screen and (min-width: 701px){
+		@media screen and (min-width: 801px){
 			.banner{
 	      color: white;
 				font-family: Elephant, Arial;
@@ -27,6 +30,7 @@
 				text-align: center;
 				font-weight: bold;
 			}
+
 		}
 		.header {
 			text-align: center;
@@ -37,9 +41,7 @@
 
 	  /* End-Header */
 		/* Navigation */
-		.container{
-			margin-top: 1em;
-		}
+
 		.navigation{
 			background-color: #eeeeee;
 		}
@@ -80,21 +82,20 @@
 			/*text-align: center;*/
 			font-weight: bold;
 			font-family: Cambria, Arial;
-      margin-left: 5% 0% 0% 2%;
-      font-size: 4em;
+			font-size: 3em;
+			padding-top: 1em; /*remove this line if you decide to add the picture */
 		}
     p {
       /*text-align: center;*/
       font-family: Cambria, Arial;
-      margin: 0% 0% 0% 2%;
-    }
 
-    img {
-		  width: auto;
-      height: 20em;
     }
-		.facts {
-			height: 20em;
+		img {
+			width: auto;
+			height: 10em;
+			padding-top: .9em;
+			margin-right: 1em;
+			float: left;
 		}
 		/* End Main */
 
@@ -104,7 +105,7 @@
 	<div class="container-fluid header">
 		<div class="row">
 			<div class="col-12" id="header">
-				<h1 class="banner"> Author </h1>
+				<span class="banner"> Author </span>
 			</div>
 		</div>
 	</div>
@@ -122,18 +123,12 @@
 			</div>
 		</div>
 	</div>
-	<div class="container-fluid main">
+	<div class="container main">
 		<div class="row">
-			<div class="col-4 facts">
-          <div>
-            <img src="Kalpit_Photo.jpg" alt="Photo of Author" class="img-thumbnail">
-          </div>
-      </div>
-      <div class="col-8 facts">
-
-					<h1> Kalpit Modi </h1>
-		      <p> Kalpit is a 4th year medical student at the University of Minnesota.</p>
-          <p> He has a BA in Chemistry with Concentrations in Biomolecular Science and Management Studies from St. Olaf College. </p>
+      <div class="col-12 facts">
+					<!--<img src="Kalpit_Photo.jpg" alt="Author Photo" class="hidden-xs">-->
+					<h1> Kalpit Modi</h1>
+					<p> Kalpit is a 4th year medical student at the University of Minnesota. He has a BA in Chemistry with Concentrations in Biomolecular Science and Management Studies from St. Olaf College. </p>
       </div>
     </div>
   </div>
