@@ -7,33 +7,41 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 	<style>
 		/* Header */
+		@media screen and (max-width: 800px) {
+			.banner{
+				color: white;
+				font-family: Elephant, Arial;
+				font-size: 5em;
+				margin: 0em;
+				text-align: center;
+				font-weight: bold;
+			}
+			.hidden-xs
+			{
+				display: none;
+			}
+		}
+		@media screen and (min-width: 801px){
+			.banner{
+	      color: white;
+				font-family: Elephant, Arial;
+				font-size: 10em;
+				margin: 0em;
+				text-align: center;
+				font-weight: bold;
+			}
+
+		}
 		.header {
 			text-align: center;
 		}
 		#header {
 			background-color:#222831;
 		}
-		h1.banner{
-			color: white;
-			font-family: Elephant, Arial;
-			font-size: 20rem;
-			margin-top: 1rem;
-			text-align: center;
-			font-weight: bold;
-			/*padding-bottom: 1rem;*/
-			/*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
-		}
-		h2.tag {
-			color: white;
-			font-family: Cambria, Arial;
-			font-size: 1.5em;
-			/*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
-		}
-		/* End-Header */
+
+	  /* End-Header */
 		/* Navigation */
-		.container{
-			margin-top: 1em;
-		}
+
 		.navigation{
 			background-color: #eeeeee;
 		}
@@ -70,27 +78,34 @@
 		/* End-Navigation */
 
 		/* Main */
-		h1{
+    h1 {
 			/*text-align: center;*/
 			font-weight: bold;
 			font-family: Cambria, Arial;
-      margin-left: 20%;
+			font-size: 3em;
+			padding-top: 1em; /*remove this line if you decide to add the picture */
 		}
     p {
       /*text-align: center;*/
       font-family: Cambria, Arial;
-      margin-left: 20%;
-      margin-bottom: 0%;
+
     }
+		img {
+			width: auto;
+			height: 10em;
+			padding-top: .9em;
+			margin-right: 1em;
+			float: left;
+		}
 		/* End Main */
+
 	</style>
 </head>
 <body>
 	<div class="container-fluid header">
 		<div class="row">
 			<div class="col-12" id="header">
-				<h1 class="banner"> About the Website </h1>
-				<!--<h2 class="tag"> - the essentials </h2>-->
+				<span class="banner"> Author </span>
 			</div>
 		</div>
 	</div>
