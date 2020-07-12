@@ -16,7 +16,35 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 	<style>
 	/* Header */
-	@media screen and (max-width: 800px) {
+	@media screen and (max-width: 331px) {
+		.banner{
+			color: white;
+			font-family: Elephant, Arial;
+			font-size: 2em;
+			margin: 0em;
+			text-align: center;
+			font-weight: bold;
+		}
+		.hidden-xs
+		{
+			display: none;
+		}
+	}
+	@media screen and (min-width:331px) and (max-width:532px){
+		.banner{
+			color: white;
+			font-family: Elephant, Arial;
+			font-size: 3em;
+			margin: 0em;
+			text-align: center;
+			font-weight: bold;
+		}
+		.hidden-xs
+		{
+			display: none;
+		}
+	}
+	@media screen and (min-width:532px) and (max-width:800px){
 		.banner{
 			color: white;
 			font-family: Elephant, Arial;
@@ -30,7 +58,35 @@
 			display: none;
 		}
 	}
-	@media screen and (min-width: 801px){
+	@media screen and (min-width:800px) and (max-width:834px){
+		.banner{
+			color: white;
+			font-family: Elephant, Arial;
+			font-size: 6em;
+			margin: 0em;
+			text-align: center;
+			font-weight: bold;
+		}
+		.hidden-xs
+		{
+			display: none;
+		}
+	}
+	@media screen and (min-width:834px) and (max-width:1034px){
+		.banner{
+			color: white;
+			font-family: Elephant, Arial;
+			font-size: 8em;
+			margin: 0em;
+			text-align: center;
+			font-weight: bold;
+		}
+		.hidden-xs
+		{
+			display: none;
+		}
+	}
+	@media screen and (min-width: 1034px){
 		.banner{
 			color: white;
 			font-family: Elephant, Arial;
@@ -140,13 +196,22 @@ a{
 	text-align: center;
 	padding-top: 20em;
 }
+.rotate{
+  display: inline-block;
+	transform: rotate(45deg);
+	color: #FF66CC;
+	position: relative;
+	left: 1.75%;
+	top: 14%;
+}
+}
 	</style>
 </head>
 <body>
 	<div class="container-fluid header">
 		<div class="row">
 			<div class="col-12" id="header">
-				<span class="banner"> Kalpit Modi </span>
+				<span class="banner"> Kalpit Mod<span class="rotate">i</span> </span>
 			</div>
 		</div>
 	</div>
