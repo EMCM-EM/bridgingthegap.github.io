@@ -106,11 +106,9 @@
 			padding-top: 1em; /*remove this line if you decide to add the picture */
 		}
 		img {
-			width: auto;
-			height: 10em;
-			padding-top: .9em;
-			margin-right: 1em;
-			float: left;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
 		}
     .facts{
       padding-top: 1em;
@@ -135,6 +133,10 @@
 
 		p {
 			padding-left: 2em;
+		}
+
+		.tab {
+			padding-left: 4em;
 		}
 		/* End Main */
 
@@ -165,15 +167,13 @@
 	<div class="container main">
 		<div class="row">
       <div class="col-12 facts">
-				<h3> What are some things I need to know </h3>
-				<p> Consult your doctor before attempting any weight gain or weight loss routines. This post does not constitute medical advice nor does it prescribe any therapy of treatment. </p>
 				<h3> Is there a simple solution to weight loss?</h3>
 				<p> Yes! Assuming no underlying medical problems, a person's weight is dependent on 2 variables: Energy In and Energy Out. </p>
 					<ul class="somebullet">
 						<li class="somebullet">To Maintain weight:</li>
 						<ul class="nobullet">
 							<li class="nobullet bold"> Energy in &equals; Energy Out </li>
-							<li class="nobullet"> The energy that a person takes into their body must <em>equal to</em> the energy that a person uses. </li>
+							<li class="nobullet"> The energy that a person takes into their body must <em>equal</em> the energy that a person uses. </li>
 						</ul>
 						<li class="somebullet">To Lose Weight</li>
 						<ul class="nobullet">
@@ -183,13 +183,13 @@
 						<li class="somebullet">To Gain Weight</li>
 						<ul class="nobullet">
 							<li class="nobullet bold"> Energy in &gt; Energy Out </li>
-							<li class="nobullet"> The energy that a person takes into their body must <em>greater than</em> the energy that a person uses. </li>
+							<li class="nobullet"> The energy that a person takes into their body must be <em>greater than</em> the energy that a person uses. </li>
 						</ul>
 					</ul>
 				<h3> What does "Energy In" mean? </h3>
-					<p> This is the energy that a person takes into the body. A person gets energy by eating anything with "calories": food and beverages - excluding water. Water has no calories. </p>
+					<p> This is the energy that a person takes into their body. A person gets energy by eating anything with "calories": food and beverages - excluding water. Water has no calories. </p>
 				<h3> What does "Energy Out" mean? </h3>
-					<p> This is energy that a person's body uses in order to function. A person uses up his or her body's energy in two main ways: </p>
+					<p> This is energy that a person's body uses in order to function. A person uses his or her body's stored energy in two main ways: </p>
 					<ol class="nobullet">
 						<li class="nobullet">Normal Everyday Metabolism: by living, breathing, keeping the body warm, keeping the organs functioning.</li>
 						<li class="nobullet">Kinetic Motion: by moving, walking, exercising. </li>
@@ -198,25 +198,44 @@
 				<p> To lose weight you must simply take in less calories and use more calories. In other words: eat less, play more. </p>
 				<p> To gain weight, you must take in more calories and use less calories. In other words: eat more play less. </p>
 				<p> To maintain your current weight, you must take in the same number of calories that you use. In other words: eat the same amount you play. </p>
-				<h3> How do bodybuilders and professional athletes who are exercising so much gain weight but still look toned? </h3>
+				<h3> What is fat? </h3>
+				<p> To keep things simple, fat is simply a way for your body to store excess energy in the form of "fat molecules." Yes, there are different subtypes of fats - brown fat and white fat - that serves different functions. But, we won't get that complicated. </p>
+				<h3> How do bodybuilders and professional athletes who are exercising so much gain weight but still look lean? </h3>
 				<p> This is a complicated question that has many little components, but we'll simplify to its most basic idea. </p>
-				<p> In short, muscle is more dense than fat. One pound/kg of muscle takes up less volume than one pound/kg of fat. So, a person who weighs 100lbs with a low fat content and a high muscle content will look thinner than a person who weighs 100lbs with a higher fat content, but a lower muscle content. Athletes try to build muscle mass and reduce their fat mass.</p>
+				<p> In short, muscle is more dense than fat. One pound (or kg) of muscle takes up less volume than one pound (or kg) of fat. So, a person who weighs 100lbs with a low fat content, but a high muscle content will look thinner than a person who weighs 100lbs with a higher fat content, but a lower muscle content. Athletes try to build muscle mass and reduce their fat mass.</p>
 				<h3> So why do athletes gain weight if they exercise so much? </h3>
 				<p> Exercise allows athletes to build muscle mass. Muscles use more of your body's energy than fat does (ie. increased "Energy Out"). By exercising, these athletes are using the energy that they eat to build muscle (and to heal after each round of exercise). If these athletes reduced their dietary intake (reduced Energy In), but continued their exercise (increased Energy Out), they would lose weight (Energy In < Energy Out). In fact, their bodies would break down their own muscle to use as energy. This is counterproductive. So, these athletes consume more food (increased Energy In) and exercise at the same time. This, forces the body to build muscle before it builds fat. However, if there is a surplus of food intake (excess Energy In beyond what the body needs to build muscle), they would gain fat. But athletes gain weight by predominantly building muscle mass. </p>
 				<h3> So if all that matters is Energy In and Energy out? Does the type of food I eat not matter? </h3>
-				<p> In terms of weight gain and weight loss - No. In terms of overall health - YES, it matters a lot. </p>
+				<p> In terms of weight gain and weight loss - No, it does not matter. But, in terms of maintaining overall health - YES, it matters a lot. </p>
 				<h3> So, what types of foods should I be eating </h3>
 				<p> A good general rule is: Anything that is close to a farm is good anything that is away from the farm is bad. To be clear, I don't mean away/close to farms in terms of proximity, but in terms of processing. </p>
-				<p> Close to farms &equals; raw fruits, raw vegetables, whole grains, etc.</p>
-				<p> Away from farms &equals; processed foods, refined foods, foods with added sugars, etc. </p>
+				<p> Close to farms &equals; raw fruits, raw vegetables, whole grains, foods without added sugars, etc.</p>
+				<p> Away from farms &equals; processed foods, refined foods, foods with added sugars, soda's, deep fried foods, things you buy in packages, candy, etc. </p>
+				<p> Try to strive for a well-balanced meal, make sure your meals generally consist of all food groups. Many guidelines and resources exist on the internet to help you create a well-balanced meal. </p>
+				<p>Here is one from the United States Department of Agriculture: <a href="https://www.choosemyplate.gov/resources/MyPlatePlan">MyPlatePlan</a> </p>
+				<p> Here is one from the European Union (you may need to scroll down): <a href="https://ec.europa.eu/jrc/en/health-knowledge-gateway/promotion-prevention/nutrition/food-based-dietary-guidelines"> Food Based Dietary Guidlines</a> </p>
+				<h3> What about oils? </h3>
+				<p> Strive for oils with the highest amount of polyunsaturated and unsaturated fats and the lowest amounts of saturated fats. Avoid eating things with trans fats. Trans fats are fats which have hydrogens diagonally across a double bond. They have been shown to increase risk of heart disease, stroke, and diabetes. Here is a good resource on understanding trans fats: <a href="https://www.heart.org/en/healthy-living/healthy-eating/eat-smart/fats/trans-fat">American Heart Association</a> </p>
+				<p> <img src="transfat.jpg" alt="Chemical Structure of Fats"> </p>
+				<p> A good general trend is: The more liquid the oil the higher the unsaturated fat content; the more solid the oil the higher the saturated fat content. </p>
+				<h3> What about sugars?</h3>
+				<p> Try to minimize your intake of added sugars. To find out if your food has added sugars check the nutrition label. Sugars have many different names.</p>
+				<p class="tab">Some names end in the suffix "-ose" like sucrose, glucose, fructose, dextrose, maltose etc. </p>
+				<p class="tab"> Other names include: "high fructose corn syrup," "cane sugar," "agave nectar," "dextrin," "raw sugar," "syrup," "honey," "fruit juice concentrates,"  "corn sweetner," "molasses,"  "barley malt," "brown sugar," "cane sugar," "rice syrup," "syrup," etc. </p>
+				<p> For more information try these links: <a href="https://sugarscience.ucsf.edu/the-toxic-truth/">UCSF Sugar Science</a> and <a href="https://www.heart.org/en/healthy-living/healthy-eating/eat-smart/sugar/added-sugars"> AHA Added Suagar</a> </p>
+				<h3> Are Vegan and Vegetarian diets acceptable? </h3>
+				<p> Yes! For Vegans and Vegetarians, to maximize your protein intake eat a wide variety of legumes and nuts. It is also important to find ways to get Vitamin B12 into your body (since B12 is mostly found in animal products). If you drink milk/yogurt - that should give you B12. Otherwise, try to find foods fortified with Vitamin B12. </p>
+				<p>Multivitamins are also available - but be aware that multivitamins are NOT regulated by the FDA in the US. Do a bit of digging and find a source you trust.</p>
 				<h3>How do I know what my "Energy In" is?</h3>
 				<p> The best way to know this is by counting calories - look up different foods you eat on Google, check the nutrition lables, try MyFitnessPal for an estimate of how much calories are in the food you are eating. </p>
 				<h3>How do I calculate my "Energy Out"? </h3>
 				<p> This is a hard question to answer. First, everybody's basic metabolic rate is different. Second, as we grow older our basic metoblic rate grows slower (ie. reduced Energy Out). </p>
-				<p> The easy way: Track your weight over a period of weeks. If your weight is increasing, your Energy In > Energy Out. If your weight is decreasing, your Energy In < Energy out. If your weight is not changing, your Energy In = Energy out. </p>
+				<p> The easy way: Track your weight over a period of weeks. If your weight is increasing, your Energy In &gt; Energy Out. If your weight is decreasing, your Energy In &lt; Energy out. If your weight is not changing, your Energy In &equals; Energy out. </p>
 				<p> The hard way: There are equations that help calculate your basic metabolic rate: Click <a href="https://www.mayoclinic.org/healthy-lifestyle/weight-loss/in-depth/calorie-calculator/itt-20402304">here</a>. Calculating your calories lost via exercise can be done with smart watches, by using your exercise equipment's calorie tracker, or by calculating average energy utilization based on distance run. </p>
 				<h3> What if I'm losing weight without changing my Energy In or Energy Out?</h3>
 				<p> Consult your doctor! There are many medical conditions, some quite serious, that can lead to unexpected weight loss or weight gain regardless of your conscious Energy In and Energy out.</p>
+				<h3> Anything else I need to know? </h3>
+				<p> Consult your doctor before attempting any weight gain or weight loss routines. This post does not constitute medical advice nor does it prescribe any therapy or treatment. </p>
 			</div>
     </div>
   </div>
